@@ -4,8 +4,8 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>today.theladpack.MetricCompany</AssemblyName>
     <Product>MetricCompany</Product>
-    <Description>Displays weight on your in kilograms (kg) rather than pounds (lbs)</Description>
-    <Version>0.1.0</Version>
+    <Description>Displays the weight of items on you in kilograms (kg) rather than pounds (lbs)</Description>
+    <Version>0.1.1</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
