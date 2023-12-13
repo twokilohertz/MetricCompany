@@ -76,3 +76,7 @@ bin/
 obj/
 MetricCompany/bin/
 MetricCompany/obj/
+MetricCompany/dist/
+
+# Visual Studio Code
+.vscode/

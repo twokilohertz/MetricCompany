@@ -1,2 +1,3 @@
-# LethalCompanyTemplate
-A template for a BepInEx 5 Plugin, using the correct .csproj configuration for Lethal Company modding
+# MetricCompany
+
+Displays weight on your in kilograms (kg) rather than pounds (lbs)

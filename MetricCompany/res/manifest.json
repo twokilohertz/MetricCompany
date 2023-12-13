@@ -1,0 +1,9 @@
+{
+  "name": "MetricCompany",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/twokilohertz/MetricCompany",
+  "description": "Displays weight on your in kilograms (kg) rather than pounds (lbs)",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
