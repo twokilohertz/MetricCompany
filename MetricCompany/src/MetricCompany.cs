@@ -1,5 +1,6 @@
 ﻿using BepInEx;
 using HarmonyLib;
+using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using TMPro;
@@ -22,10 +23,10 @@ namespace MetricCompany
             {
                 // Perform calculation that the game uses to determine weight in pounds, then convert to kilograms
                 float weight_in_lbs = Mathf.Clamp(GameNetworkManager.Instance.localPlayerController.carryWeight - 1f, 0f, 100f) * 105f;
-                float weight_in_kgs = Mathf.RoundToInt(weight_in_lbs / 2.205f);
+                float weight_in_kgs = weight_in_lbs / 2.205f;
 
                 // Assign the text label and set the animator's weight property
-                ___weightCounter.text = $"{weight_in_kgs} kg";
+                ___weightCounter.text = string.Format("{0:0.#}", weight_in_kgs) + " kg";
                 ___weightCounterAnimator.SetFloat("weight", weight_in_kgs / 130f);
 
                 return;
