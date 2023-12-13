@@ -1,0 +1,12 @@
+c:\Users\Adam\repos\MetricCompany\MetricCompany\bin\Debug\netstandard2.1\LethalCompanyTemplate.deps.json
+c:\Users\Adam\repos\MetricCompany\MetricCompany\bin\Debug\netstandard2.1\LethalCompanyTemplate.dll
+c:\Users\Adam\repos\MetricCompany\MetricCompany\bin\Debug\netstandard2.1\LethalCompanyTemplate.pdb
+c:\Users\Adam\repos\MetricCompany\MetricCompany\obj\Debug\netstandard2.1\MetricCompany.csproj.AssemblyReference.cache
+c:\Users\Adam\repos\MetricCompany\MetricCompany\obj\Debug\netstandard2.1\PluginInfo.cs
+c:\Users\Adam\repos\MetricCompany\MetricCompany\obj\Debug\netstandard2.1\MetricCompany.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Adam\repos\MetricCompany\MetricCompany\obj\Debug\netstandard2.1\MetricCompany.AssemblyInfoInputs.cache
+c:\Users\Adam\repos\MetricCompany\MetricCompany\obj\Debug\netstandard2.1\MetricCompany.AssemblyInfo.cs
+c:\Users\Adam\repos\MetricCompany\MetricCompany\obj\Debug\netstandard2.1\MetricCompany.csproj.CoreCompileInputs.cache
+c:\Users\Adam\repos\MetricCompany\MetricCompany\obj\Debug\netstandard2.1\MetricCompany.sourcelink.json
+c:\Users\Adam\repos\MetricCompany\MetricCompany\obj\Debug\netstandard2.1\LethalCompanyTemplate.dll
+c:\Users\Adam\repos\MetricCompany\MetricCompany\obj\Debug\netstandard2.1\LethalCompanyTemplate.pdb
