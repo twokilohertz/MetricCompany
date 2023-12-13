@@ -72,5 +72,7 @@ crashlytics-build.properties
 
 # Build artefacts
 
-bin/*
-obj/*
+bin/
+obj/
+MetricCompany/bin/
+MetricCompany/obj/
