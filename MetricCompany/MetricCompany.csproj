@@ -39,7 +39,7 @@
 
   <Target Name="Dist" AfterTargets="Build">
     <Message Text="Preparing files for distribution on Thunderstore, check dist directory"/>
-    <Exec Command="if not exist dist mkdir dist &amp;&amp; del /f /q dist\* &amp;&amp; copy res\icon.png dist\ &amp;&amp; copy res\manifest.json dist\ &amp;&amp; copy ..\README.md dist\ &amp;&amp; copy $(OutDir)$(TargetFileName) dist\ &amp;&amp; powershell -command Compress-Archive -Path &quot;.\dist\icon.png,.\dist\manifest.json,.\dist\README.md,.\dist\$(TargetFileName)&quot; -DestinationPath &quot;.\dist\$(TargetName).zip&quot; -CompressionLevel Optimal" ConsoleToMsBuild="true"/> 
+    <Exec Command="mkdir dist &amp; del /f /q dist\* &amp;&amp; copy res\icon.png dist\ &amp;&amp; copy res\manifest.json dist\ &amp;&amp; copy ..\README.md dist\ &amp;&amp; copy $(OutDir)$(TargetFileName) dist\ &amp;&amp; pwsh -Command Compress-Archive -Path &quot;.\dist\icon.png,.\dist\manifest.json,.\dist\README.md,.\dist\$(TargetFileName)&quot; -DestinationPath &quot;.\dist\$(TargetName).zip&quot; -CompressionLevel Optimal" ConsoleToMsBuild="true"/> 
   </Target>
 
   <ProjectExtensions>
